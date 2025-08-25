@@ -45,19 +45,19 @@
     margin-right: .5rem;
 }
  .information .pessoa::before{
-    background-image: url('/assets/img/icons/linkedin.svg');
+    background-image: url('../img/icons/linkedin.svg');
  }
 
   .information .localizacao::before{
-    background-image: url('/assets/img/icons/localização.svg');
+    background-image: url('../img/icons/localização.svg');
  }
 
   .information .celular::before{
-    background-image: url('/assets/img/icons/Whatsapp.svg');
+    background-image: url('../img/icons/Whatsapp.svg');
  }
 
   .information .email::before{
-    background-image: url('/assets/img/icons/email.svg');
+    background-image: url('../img/icons/email.svg');
  }
 
  @media only screen and (min-width: 768px){
