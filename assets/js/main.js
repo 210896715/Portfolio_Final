@@ -55,20 +55,19 @@ function updateProjetos(profileData){
                 <a href="${project.utl}" target="_blank">${project.utl}</a>
             </li>         
         `
-    })
+    }).join('')
 }
 
 function updateExperience(profileData){
     const experience = document.getElementById('profile.experience')
     experience.innerHTML = profileData.experience.map(exp =>{
         return `
-             <h3 class="title">${exp.name}</h3>
-                        <p class="period">${exp.period}</p>
-                        <p >${exp.description}
-                        </p>
-        
-      `
-
+            <li>
+                <h3 class="title">${exp.name}</h3>
+                <p class="period">${exp.period}</p>
+                <p >${exp.description}</p>
+            </li>
+         `
     }).join('')
 }
 

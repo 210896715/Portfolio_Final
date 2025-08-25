@@ -1,22 +1,19 @@
-
 .experience{
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
     list-style: none;
+}
 
+.experience li{
+    margin-bottom: 1rem;
 }
 
 .experience li .period{
     display: flex;
     flex-direction: row;
-  
-    
-}
-
-.experience li{
-    margin-bottom: 1rem;
+    align-items: center;
 }
 
 .experience li .period::before{
