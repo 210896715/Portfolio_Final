@@ -45,7 +45,7 @@
     margin-right: .5rem;
 }
  .information .pessoa::before{
-    background-image: url('../img/icons/linkedin.svg');
+    background-image: url('../img/icons/pessoa.svg');
  }
 
   .information .localizacao::before{
